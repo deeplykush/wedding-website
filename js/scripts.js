@@ -241,7 +241,7 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 26.911571752, lng: 70.94834237};
+    /*var location = {lat: 26.911571752, lng: 70.94834237};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
@@ -251,7 +251,7 @@ function initMap() {
     var marker = new google.maps.Marker({
         position: location,
         map: map
-    });
+    });*/
 }
 
 function initBBSRMap() {
